@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border box;
+    font-family:"Amazon Ember",Arial,sans-serif;
+    font-family: Arial,sans-serif;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 60px;
+    width:100%;
+    position:fixed;
+    position: relative;
+    z-index: 23;
+    
+    
+}
+header{
+top:0;
+position: sticky;
+    z-index: 59;
+}
+.navbar-logo{
+    height:50px;
+    width:140px;
+}
+.logo{
+    background-image: url("logo am.png");
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+footer{
+    background-color:black;
+    color: aliceblue;
+}
+li{
+    text-align:left;
+}
+td{
+    text-align:left;
+    margin:60px;
+    padding:10px;
+}
+th{
+    text-align:left;
+    margin:60px;
+    padding:10px;
+}
+.border{
+    border:1.5px solid transparent;
+}
+
+.border:hover{
+    border:1.2px solid white;
+}
+.search:hover{
+    border:2px solid orange;
+
+}
+.search{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:620px;
+    height:40px;
+    border-radius: 4px;
+}
+
+.search_select{
+    width:50px;
+    height: 40px;
+    font-size:1rem;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbox{
+    width:100%;
+    display: flex;
+    font-size: 1rem;
+    height:40px;
+    border: none;
+    background-color: #f3f3f3;
+    align-items: center;
+    color:black;
+}
+.searchicon{
+    background-color: orange;
+    display: inline-block;
+    display: flex;
+    width:30px;
+    height:40px;
+    align-items:center;
+    justify-content:center;
+    font-size: 1rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.secnav{
+    height:40px;
+    width:100%;
+    position: relative;
+    color:#f3f3f3;
+    background-color :#232F3E;
+    display:flex;
+    border:white 1px solid;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+
+.all{
+    width:50px;
+    height: 40px;
+}
+.al{
+    
+    margin:3px;
+    padding:0px 5px 0px 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.seller{
+    margin:6px;
+    padding:8px 9px;
+    display:flex;
+    width:650px;
+    align-items: center;
+    justify-content: center;
+}
+
+.secnav a{
+    display:inline;
+    margin:4px;
+    font-size: 0.9rem;
+}
+.space{
+    height:40px;
+    width:180px;
+}
+.side{
+    width:378px;
+    font-size: 1rem;
+    display:flex;
+}
+
+
+.herosection{
+    background-image: url("hair.jpg");
+    height: 400px;
+    width:100%;
+    background-size: cover;
+    position: relative;
+    flex-wrap: wrap;
+    display:flex;
+}
+
+.lolo{
+    display:block;
+    height:390px;
+    width:100%;
+}
+.head{
+    padding:9px;
+}
+.box{
+    height:310px;
+    width:21%;
+    background-color: #f3f3f3;
+    margin:auto;
+    padding: 15px;
+}
+.box2{
+    height:270px;
+    width:21%;
+    background-color: #f3f3f3;
+    margin:10px;
+    padding: 15px;
+}
+.image{
+    background-image: url("watch.jpg");
+    height:200px;
+    width:220px;
+    position: center center;
+    display: block;
+    z-index: 1;
+    background-size: cover;
+}
+
+.ji{
+    background-color:hsl(33, 49%, 88%);
+    height: 5070px;
+    width:100%;
+    background-color: #bbbfbf80;
+    box-sizing: border-box;
+}
+
+.top{
+    height:37px;
+    color:#FFFFFF;
+    background-color:#455768;
+    padding: 15px;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.top:hover{
+    background-color: #3d4752;
+}
+.list{
+    display:block;
+    display:flex;
+    justify-content: space-between;
+    justify-content: center;
+    background-color:#232F3E;
+    padding-bottom:20px;
+    height: 280px;
+}
+.fit{
+    display:inline-block;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.fit p{
+    padding: 2px;
+}
+.art{
+    padding-top:20px;
+    height: 110px;
+    display:block;
+    display:flex;
+    justify-content: center;
+    gap:120px;
+    justify-content: flex-start;
+    font-size: 12px;
+    padding-left:240px;
+    padding-right:240px;
+    color: #999999;   
+     background-color: #131A22;
+   
+}
+.copy{
+    background-color: #131A22;
+    padding-bottom: 30px;
+}
+.hea{
+    font-size: 18px;
+    font-weight: 16px;
+    padding-bottom: 4px;
+}
+.heap{
+    font-size: 13px;
+    font-weight: 13px;
+    padding-bottom: 3px;
+    color:#DDDDDD;
+}
+
+.art a{
+    text-align: left;
+}
+.art a:hover{
+  text-decoration:underline;
+}
+.list a{
+    padding:40px;
+    text-align: left;
+}
+.container{
+    width:100%;
+    height:270px;
+    z-index: 1;
+    background-color:#ffffffed;
+    margin:10px;
+}
+.crushed{
+    margin:auto;
+    padding:8px;
+}
+.fo{
+    color:#f3f3f3;
+    padding:4px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.lola{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    padding-bottom: 29px;
+    height: 40px;
+}
+.lola a{
+    padding-left:42px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-align: center;
+
+}
+.country{
+    height:150px;
+    background-color:#232F3E;
+    padding:20px;
+}
+
+.see{
+    background-color:#FFFFFF ;
+    color:#000000;
+    padding: 26px;
+}
+
+.see p{
+padding:10px;
+}
+.fo:hover{
+    text-decoration: underline;
+}
+.he{
+    padding:15px 0px 10px 19px;
+}
+.books{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.books img:hover{
+    height: 200px;
+    
+}
+
+.boxer{
+    height:400px;
+    width:22.5%;
+    background-color: #f3f3f3;
+    margin:auto;
+    padding: 5px;
+}
+.boxer img{
+    padding:3px;
+}
+
+.more{
+    color:rgb(106, 153, 188);
+     text-decoration:none;
+     font-size: 14px;
+     padding: 4px;
+}
+.more:hover{
+    color: rgb(161, 32, 32);
+    text-decoration: underline;
+}
+
+.txt{
+    display:inline;
+}
+.shop{
+   
+margin:10px;
+}
