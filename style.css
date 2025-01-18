@@ -6,7 +6,6 @@
     font-family:"Amazon Ember",Arial,sans-serif;
     font-family: Arial,sans-serif;
     box-sizing: border-box;
-
 }
 
 .navbar{
@@ -20,8 +19,6 @@
     position:fixed;
     position: relative;
     z-index: 23;
-    
-    
 }
 header{
 top:0;
